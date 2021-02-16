@@ -35,11 +35,10 @@ public class IoUtils {
 	 * @param filePath
 	 * @return
 	 */
-	public static boolean isFile(String filePath){
-		File file = FileUtil.file(filePath);
+	public static boolean isFile(File file){
 		//获取文件后缀
 		String houZhui = FileNameUtil.extName(file);
-		if(houZhui.equals("jpg") || houZhui.equals("jpge") || houZhui.equals("bmp") || houZhui.equals("gif") || houZhui.equals("png")
+		if(houZhui.equals("jpg") || houZhui.equals("jpeg") || houZhui.equals("bmp") || houZhui.equals("gif") || houZhui.equals("png")
 				|| houZhui.equals("ai") || houZhui.equals("svg")){
 			return false;
 		}
