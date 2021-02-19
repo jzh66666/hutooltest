@@ -8,6 +8,6 @@ import java.util.Scanner;
  */
 public class DateTest {
 	public static void main(String[] args) {
-		DateChange.getNongLiMessage(2021, 2,5);
+		DateChange.getNongLiMessage(2021, 2,11);
 	}
 }

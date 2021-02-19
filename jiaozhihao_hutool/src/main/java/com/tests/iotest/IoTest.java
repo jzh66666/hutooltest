@@ -8,6 +8,7 @@ public class IoTest {
 		//获取项目路径
 		IoTest ioTest = new IoTest();
 		String path = ioTest.luJing();
+		System.out.println(path);
 		//创建文件夹
 		File img = new File(path+"/file/img");
 		if(!img.exists()){
